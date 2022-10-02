@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    /* bg-image top left */
+    .backg-left {
+      background-image: url(./bg-pattern-top.svg);
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: contain;
+      transform: translate(-300px, -250px);
+    }
+
+    .backg-right {
+      background-image: url(./bg-pattern-bottom.svg);
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: contain;
+      transform: translate(600px, 500px);
+    }
+}
